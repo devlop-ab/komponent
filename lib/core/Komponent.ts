@@ -1,7 +1,12 @@
 'use strict';
 
-const Komponent = class {
-    constructor(config, element)
+class Komponent
+{
+    private config: any;
+
+    private element: any;
+
+    public constructor(config : any, element : any)
     {
         this.config = config;
 

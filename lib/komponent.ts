@@ -9,7 +9,7 @@ let config = {
 };
 
 // Create the default instance to be exported
-const komponent = function (name, callback) {
+const komponent = function (name : any, callback : any) {
     console.log(name);
     const componentSelector = config.selectorPrefix + name.replace(/([:.])/g, '\\$1');
 
