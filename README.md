@@ -6,4 +6,6 @@ bare bones frontend framework for working with frontend components.
 
 using npm
 
+```bash
 npm install @devlop-ab/komponent
+```
