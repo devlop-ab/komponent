@@ -2,6 +2,11 @@
     "name": "@devlop-ab/komponent",
     "version": "0.1.0",
     "description": "",
+    "keywords": [
+        "component",
+        "frontend",
+        "framework"
+    ],
     "author": "Johan Rosenson",
     "license": "MIT",
     "main": "dist/index.js",
@@ -19,5 +24,13 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devlop-ab/komponent.git"
+    },
+    "bugs": {
+        "url": "https://github.com/devlop-ab/komponent/issues"
+    },
+    "homepage": "https://github.com/devlop-ab/komponent",
 }
