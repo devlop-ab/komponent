@@ -1,5 +1,5 @@
 {
-    "name": "komponent",
+    "name": "@devlop-ab/komponent",
     "version": "0.1.0",
     "description": "",
     "main": "dist/index.js",
