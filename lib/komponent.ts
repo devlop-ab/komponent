@@ -10,6 +10,7 @@ let config = {
 
 // Create the default instance to be exported
 const komponent = function (name, callback) {
+    console.log(name);
     const componentSelector = config.selectorPrefix + name.replace(/([:.])/g, '\\$1');
 
     const components = document.querySelectorAll(componentSelector);
