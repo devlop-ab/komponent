@@ -2,17 +2,19 @@
     "name": "@devlop-ab/komponent",
     "version": "0.1.0",
     "description": "",
+    "author": "Johan Rosenson",
+    "license": "MIT",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
         "./dist"
     ],
     "scripts": {
-        "prepublish": "tsc",
+        "build": "tsc",
+        "prepack": "npm run build",
+        "prepublishOnly": "npm run build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Johan Rosenson",
-    "license": "MIT",
     "dependencies": {},
-    "scripts": {}
+    "devDependencies": {}
 }
