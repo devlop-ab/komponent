@@ -1,6 +1,6 @@
 {
     "name": "@devlop-ab/komponent",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "",
     "keywords": [
         "component",
@@ -21,10 +21,17 @@
         "build": "tsc",
         "prepack": "npm run build",
         "prepublishOnly": "npm run build",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "dependencies": {},
-    "devDependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "@babel/preset-typescript": "^7.12.7",
+        "@types/jest": "^26.0.20",
+        "babel-jest": "^26.6.3",
+        "jest": "^26.6.3"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/devlop-ab/komponent.git"
@@ -32,5 +39,5 @@
     "bugs": {
         "url": "https://github.com/devlop-ab/komponent/issues"
     },
-    "homepage": "https://github.com/devlop-ab/komponent",
+    "homepage": "https://github.com/devlop-ab/komponent"
 }
