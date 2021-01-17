@@ -1,8 +1,6 @@
-<p align="center" style="text-align: center;">
-
-[![npm version](https://img.shields.io/npm/v/@devlop-ab/komponent.svg)](https://www.npmjs.org/package/@devlop/komponent)
-[![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/devlop-ab/komponent/blob/main/LICENSE)
-
+<p align="center">
+    <a href="https://www.npmjs.org/package/@devlop/komponent"><img src="https://img.shields.io/npm/v/@devlop-ab/komponent.svg" alt="Latest Stable Version"></a>
+    <a href="https://github.com/devlop-ab/komponent/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
 </p>
 
 # komponent
