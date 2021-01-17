@@ -1,4 +1,4 @@
-import komponent from './lib/komponent';
+import komponent from './src/komponent';
 
 export default komponent;
 

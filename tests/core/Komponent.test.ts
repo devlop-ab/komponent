@@ -1,4 +1,4 @@
-import Komponent from '../../lib/core/Komponent';
+import Komponent from '../../src/core/Komponent';
 
 describe('Komponent', () => {
     it('can be instantiated', () => {
