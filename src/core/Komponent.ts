@@ -20,7 +20,7 @@ class Komponent
     // querySelectorAll(selectors)
 
     // remove()
-};
+}
 
 export default Komponent;
 
