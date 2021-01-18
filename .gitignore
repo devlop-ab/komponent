@@ -3,3 +3,4 @@
 .DS_Store
 /devlop-ab-komponent-*.tgz
 /package
+tsconfig.tsbuildinfo
