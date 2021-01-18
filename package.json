@@ -9,6 +9,14 @@
     ],
     "author": "Johan Rosenson",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devlop-ab/komponent.git"
+    },
+    "bugs": {
+        "url": "https://github.com/devlop-ab/komponent/issues"
+    },
+    "homepage": "https://github.com/devlop-ab/komponent",
     "main": "dist/komponent.js",
     "types": "dist/komponent.d.ts",
     "files": [
@@ -32,13 +40,5 @@
         "@types/jest": "^26.0.20",
         "babel-jest": "^26.6.3",
         "jest": "^26.6.3"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/devlop-ab/komponent.git"
-    },
-    "bugs": {
-        "url": "https://github.com/devlop-ab/komponent/issues"
-    },
-    "homepage": "https://github.com/devlop-ab/komponent"
+    }
 }
