@@ -20,7 +20,7 @@
     "main": "dist/komponent.js",
     "types": "dist/komponent.d.ts",
     "files": [
-        "./dist"
+        "dist/*"
     ],
     "publishConfig": {
         "access": "public"
