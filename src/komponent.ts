@@ -4,13 +4,16 @@
 
 import Komponent from './core/Komponent';
 
+interface Config {
+    // selectorPrefix: string | null,
+    // identifier: string | null,
+};
+
 let config = {
     selectorPrefix: '.component\\:',
 };
 
-// Create the default instance to be exported
-const komponent = function (name : any, callback : any) {
-    console.log(name);
+const factory = function (name : any, callback : any) {
     const componentSelector = config.selectorPrefix + name.replace(/([:.])/g, '\\$1');
 
     const components = document.querySelectorAll(componentSelector);
@@ -23,7 +26,11 @@ const komponent = function (name : any, callback : any) {
     });
 };
 
-export default komponent;
+const constructor = function (config : Config) {
+    return factory;
+};
+
+export default constructor;
 
 // module.exports = komponent;
 
