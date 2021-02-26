@@ -3,3 +3,4 @@
 /devlop-ab-komponent-*.tgz
 /package
 tsconfig.tsbuildinfo
+package-lock.json
