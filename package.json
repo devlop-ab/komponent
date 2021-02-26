@@ -1,7 +1,7 @@
 {
     "name": "@devlop-ab/komponent",
     "version": "0.1.2",
-    "description": "",
+    "description": "Minimalistic frontend component framework",
     "keywords": [
         "component",
         "frontend",
@@ -17,8 +17,8 @@
         "url": "https://github.com/devlop-ab/komponent/issues"
     },
     "homepage": "https://github.com/devlop-ab/komponent",
-    "main": "dist/komponent.js",
-    "types": "dist/komponent.d.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "files": [
         "dist/*"
     ],
