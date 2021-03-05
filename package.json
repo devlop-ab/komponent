@@ -11,12 +11,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/devlop-ab/komponent.git"
+        "url": "https://github.com/devlop/komponent.git"
     },
     "bugs": {
-        "url": "https://github.com/devlop-ab/komponent/issues"
+        "url": "https://github.com/devlop/komponent/issues"
     },
-    "homepage": "https://github.com/devlop-ab/komponent",
+    "homepage": "https://github.com/devlop/komponent",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
